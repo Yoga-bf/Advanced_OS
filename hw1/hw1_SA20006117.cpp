@@ -11,5 +11,6 @@ int main (int argc, char **argv)
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
     cout << "Hello" << myid << endl;
     MPI_Finalize();
+    //there are something wrong
     return 0;
 }
