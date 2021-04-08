@@ -33,7 +33,7 @@ int main (int argc, char **argv)
     
     while(1) {
 
-        sleep(sleep_time/1000);
+        sleep(double(sleep_time/1000));
 
         gettimeofday(&mytv, NULL);
         my_time = (unsigned long)mytv.tv_sec * 1000 + ((unsigned long)mytv.tv_usec)/1000;
