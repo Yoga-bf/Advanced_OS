@@ -13,5 +13,6 @@ int main (int argc, char **argv)
     MPI_Finalize();
     //there are something wrong
     //test
+    //test122
     return 0;
 }
