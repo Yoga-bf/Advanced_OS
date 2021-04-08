@@ -12,5 +12,6 @@ int main (int argc, char **argv)
     cout << "Hello" << myid << endl;
     MPI_Finalize();
     //there are something wrong
+    //test
     return 0;
 }
